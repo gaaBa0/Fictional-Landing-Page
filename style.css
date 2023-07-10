@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+ body {
+    color: #00e061;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+
+ .head-1 {
+    background-image: url(imagens/fundo.png);
+    width: 100%;
+    height: 800px;
+    position: relative;
+ }
+
+ .txt1 {
+    display: flex;
+    float: left;
+    position: absolute;
+    bottom: 350px;
+    left: 15px;
+ }
+
+ .txt2 {
+    display: flex;
+    float: left;
+    position: absolute;
+    bottom: 250px;
+    left: 15px;
+ }
+
+ .txt3 {
+    display: flex;
+    float: left;
+    position: absolute;
+    bottom: 220px;
+    left: 15px;
+ }
+
+ #bt {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #00e061;
+    display: flex;
+    float: left;
+    position: absolute;
+    bottom: 150px;
+    left: 15px;
+    font-size: 32px;
+    padding: 16px 6px 16px 6px;
+    font-weight: 600;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: #00e061;
+    background-color: rgba(0, 59, 25, 0.5);
+    background-blend-mode: overlay;
+    transition: background-color 1.5s;
+ }
+
+ #bt:hover {
+    background-color: #00BA51;
+    border-color: #003B19;
+    color: #003B19;
+ }
+
+ a {
+    text-decoration: none;
+    color: #00e061;
+    transition: color 1.5s;
+ }
+
+ #bt a:hover {
+    color: #003B19;
+ }
+
+ .head-2 {
+   background-color: #003B19;
+   margin-bottom: 10px;
+   font-size: 32px;
+   text-align: center;
+   border-radius: 15px;
+   overflow: hidden;
+ }
+
+ .head-2 a {
+   margin-right: 50px;
+   transition: background-color 1.5s;
+   padding-left: 15px;
+   padding-right: 15px;
+ }
+
+ .head-2 a:hover {
+   background-color: #00e061;
+   color: #003B19;
+ }
+
+ .serv {
+   background-color: #003B19;
+   text-align: center;
+   font-size: 1.5em;
+   border-radius: 15px;
+   align-items: center;
+   height: 920px;
+ }
+
+ .tit {
+   background-color: #00e061;
+   color: #003B19;
+   border-radius: 15px;
+ }
+
+ .ofe {
+   display: flex;
+   flex-wrap: wrap;
+   max-width: 800px;
+   margin: 0 auto;
+ }
+
+ .prec {
+   text-align: center;
+   display: inline-block;
+   margin: auto;
+   flex-basis: calc(50% - 45px);
+   margin: 45px 15px 100px 15px;
+ }
+
+ #bt2 {
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color: #00e061;
+   padding: 16px 6px 16px 6px;
+   font-size: 16px;
+   border-style: solid;
+   border-radius: 15px;
+   border-color: #00e061;
+   background-color: #003B19;
+   transition: background-color 3s;
+ }
+
+ #bt2:hover {
+   background-color: #00BA51;
+   border-color: #003B19;
+   color: #003B19;
+ }
+
+ .txt {
+   margin-top: 45px;
+   text-align: center;
+   padding: 16px 16px 16px 16px;
+ }
